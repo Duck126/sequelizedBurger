@@ -1,0 +1,10 @@
+<li class="list-group-item">
+	{{description}}
+
+	<button type="button" class="lunch-button btn btn-warning btn-sm" data-id="{{id}}" data-ate-it="{{devoured}}">
+		{{#if devoured}}Make another!{{else}}Eat it!{{/if}}
+	</button>
+
+	<button type="button" class="delete-button btn btn-danger btn-sm" data-id="{{this.id}}">Throw away!</button>
+</li>
+
